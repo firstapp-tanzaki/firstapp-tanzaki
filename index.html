@@ -50,9 +50,9 @@
     app.config(function($sceProvider) {
         $sceProvider.enabled(false);
     });
-    app.controller('myCtrl', function ($scope) {
+    app.controller("myCtrl", function ($scope) {
             $scope.select_video = function (video) {
-                $scope.selected_vide = video;
+                $scope.selected_video = video;
                 $scope.selected_video_src = 'https://www.youtube.com/embed/' + video.id+'?autoplay=true';
             };
 
